@@ -1,6 +1,22 @@
 {
-	"name": "meilisearch-docsearch",
+	"author": {
+		"email": "Source/Open@Editor.Land",
+		"name": "Source 🖋️ Open 👐🏻",
+		"url": "HTTPS://Editor.Land"
+	},
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/MeiliSearchDocsearch/issues"
+	},
+	"dependencies": {
+		"meilisearch": "0.49.0"
+	},
 	"description": "A quick search component for meilisearch, inspired by algolia/docsearch.",
+	"devDependencies": {
+		"@playform/build": "0.2.1",
+		"esbuild": "0.25.1",
+		"esbuild-plugin-solid": "0.6.0",
+		"tsup": "8.4.0"
+	},
 	"exports": {
 		".": {
 			"import": "./dist/index.js",
@@ -17,23 +33,33 @@
 			"types": "./dist/index.solid.d.ts"
 		}
 	},
-	"main": "./dist/index.js",
-	"types": "./dist/index.d.ts",
 	"files": [
 		"dist",
 		"LICENSE_*"
 	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/MeiliSearchDocsearch#readme",
+	"keywords": [
+		"codeeditorland",
+		"land",
+		"playform"
+	],
+	"license": "SEE LICENSE IN LICENSE",
+	"main": "./dist/index.js",
+	"name": "meilisearch-docsearch",
+	"private": false,
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/MeiliSearchDocsearch.git"
+	},
 	"scripts": {
 		"build": "tsup",
-		"prepublishOnly": "pnpm build",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
 		"ts:check": "tsc --noEmit"
 	},
-	"dependencies": {
-		"meilisearch": "0.49.0"
-	},
-	"devDependencies": {
-		"esbuild": "0.25.1",
-		"esbuild-plugin-solid": "0.6.0",
-		"tsup": "8.4.0"
-	}
+	"type": "module",
+	"types": "./dist/index.d.ts",
+	"version": "0.0.1"
 }

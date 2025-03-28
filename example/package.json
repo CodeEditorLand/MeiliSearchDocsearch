@@ -1,12 +1,40 @@
 {
 	"name": "example",
+	"version": "0.0.1",
+	"private": false,
+	"keywords": [
+		"codeeditorland",
+		"land",
+		"playform"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/MeiliSearchDocsearch#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/MeiliSearchDocsearch/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/MeiliSearchDocsearch.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Source 🖋️ Open 👐🏻",
+		"email": "Source/Open@Editor.Land",
+		"url": "HTTPS://Editor.Land"
+	},
+	"type": "module",
 	"scripts": {
 		"build": "vite build",
 		"dev": "vite",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
 		"preview": "vite preview"
 	},
 	"dependencies": {
 		"meilisearch-docsearch": "workspace:^"
 	},
-	"devDependencies": {}
+	"devDependencies": {
+		"@playform/build": "0.2.1"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
