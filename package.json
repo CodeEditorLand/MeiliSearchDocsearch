@@ -55,7 +55,7 @@
 	},
 	"devDependencies": {
 		"@playform/build": "0.2.1",
-		"esbuild": "0.25.1",
+		"esbuild": "0.25.2",
 		"esbuild-plugin-solid": "0.6.0",
 		"tsup": "8.4.0"
 	},
