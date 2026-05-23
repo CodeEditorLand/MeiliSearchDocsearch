@@ -35,15 +35,15 @@
     "format:check": "prettier --check \"./**/*.{js,jsx,ts,tsx,json,html,css}\" --ignore-path .gitignore"
   },
   "dependencies": {
-    "meilisearch": "0.50.0",
-    "solid-js": "1.9.6"
+    "meilisearch": "0.58.0",
+    "solid-js": "1.9.13"
   },
   "devDependencies": {
-    "esbuild": "0.25.3",
+    "esbuild": "0.28.0",
     "esbuild-plugin-solid": "0.6.0",
-    "prettier": "3.5.3",
-    "tsup": "8.4.0",
-    "typescript": "5.8.3"
+    "prettier": "3.8.3",
+    "tsup": "8.5.1",
+    "typescript": "6.0.3"
   },
   "keywords": [
     "meilisearch",
